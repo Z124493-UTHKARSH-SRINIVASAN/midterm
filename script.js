@@ -28,4 +28,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// Slideshow is fully initialized
+
