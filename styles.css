@@ -1,6 +1,6 @@
 /* main stylesheet for portfolio website */
 
-/* global styles and resets */
+/* global styles */
 html {
   scroll-behavior: smooth;
 }
@@ -157,7 +157,7 @@ h1 {
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
-  /* margin-top: 100px; */
+  
 }
 
 
@@ -273,7 +273,7 @@ ul:not(.nav-links):not(.topnav ul) li a {
   transition: none !important;
 }
 
-/* Remove ul, li, a global styles that may conflict with timeline.css */
+/* Remove ul, li, a global styles so that it avoids issues with timeline.css */
 ul.timeline, ul.timeline *, .timeline ul, .timeline li, .timeline a {
   all: unset;
   display: revert;
